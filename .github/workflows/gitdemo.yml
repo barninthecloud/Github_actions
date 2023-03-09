@@ -26,7 +26,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository of tasks that will be executed as part of the job
+      # Checks-out your repository under $Github_workspace so your job can access it
       - uses: actions/checkout@v3
 
 
